@@ -1,0 +1,58 @@
+/* p {
+    color: red;
+} */
+
+
+/* 
+p, div {
+    color: red;
+} */
+
+
+/* 
+#myDiv > p.mainClass {
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+} */
+
+
+/* 
+div p {
+    color: green;
+    font-size: 18px;
+    line-height: 1.5;
+} */
+
+
+
+/* 
+input[type="text"].myClass {
+    border: 2px solid blue;
+    padding: 5px;
+    font-size: 16px;
+} */
+
+
+
+/* 
+div ~ span {
+  color: blue;
+  font-weight: bold;
+} */
+
+
+/* 
+p.myClass {
+  color: green;
+  font-weight: bold;
+  font-size: 16px;
+} */
+
+
+
+#myDiv {
+  background-color: lightblue;
+  padding: 10px;
+  color: blue;
+}

@@ -1,0 +1,12 @@
+p, div, span {
+  font-family: "Lucida Calligraphy",cursive; /*Lucida Calligraphy مش موجود */
+}
+
+div > h1 {
+  text-align: center;
+}
+
+
+/*...............................................*/
+
+
