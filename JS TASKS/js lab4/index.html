@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM</title>
+    <style>
+      .target-div {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-top: 10px;
+      }
+      .class-a {
+        background-color: yellow;
+        color: black;
+      }
+      .class-b {
+        background-color: blue;
+        color: white;
+      }
+      .hidden {
+        display: none;
+      }
+      .odd {
+        background: #ffe066;
+      }
+      .even {
+        background: #d0ebff;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Day4 DOM</h1>
+    <div id="my-div">
+      <p id="my-p">Hello ISI</p>
+    </div>
+    <form action="test.html">
+      <input type="text" id="my-input" placeholder="Type something..." />
+      <input
+        type="email"
+        name="user-email"
+        id="my-email"
+        placeholder="Type your email..."
+      />
+      <select name="user-country" id="my-select">
+        <option value="us">United States</option>
+        <option value="EG">Egypt</option>
+        <option value="uk">United Kingdom</option>
+      </select>
+      <br />
+      <button type="submit">Submit</button>
+    </form>
+    <div class="target-div" id="div-2">
+      <h3>create element using js</h3>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+        reiciendis!
+      </p>
+    </div>
+    <div class="sliders">
+      <img src="assets/1.jpg" alt="" style="display:block; width:400px; height:300px;">
+      <img src="assets/2.jpg" alt="" style="display:none; width:400px; height:300px;">
+      <img src="assets/3.jpg" alt="" style="display:none; width:400px; height:300px;">
+      <img src="assets/4.jpg" alt="" style="display:none; width:400px; height:300px;">
+      <div style="margin-top:10px;">
+        <button onclick="prev()" class="prev">Prev</button>
+        <button onclick="next()" class="next">Next</button>
+        <button onclick="start()" class="start">Start</button>
+        <button onclick="stop()" class="stop">Stop</button>
+      </div>
+    </div>
+    <script src="dom.js">
+
+    </script>
+  </body>
+</html>
